@@ -1,0 +1,19 @@
+.circular-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    transition: all 0.3s ease;
+}
+    i {
+      font-size: 20px;
+      color: #333;
+    }
+
+  

@@ -1,0 +1,265 @@
+.nav{
+  z-index: 5;
+}
+
+
+.kunle{
+  line-height: 1;
+}/* 
+
+
+
+ relative  top-[-520px] right-[-865px] */
+ .div1{
+  /* position: relative;
+  right: -190px; */
+  right: 220px;
+  top: -20px;
+  color: ;
+  font-size: 3rem;
+ }
+
+ .d1{
+  visibility: hidden;
+  position: absolute;
+
+ }
+
+ .div1:hover .d1{
+   visibility: visible;
+   top: 70px;
+   left:-133px;
+   z-index: 1;
+   transition-property:background-color;
+   transition-duration: 0.2s;
+   transition-delay: 0.4s;
+   
+ }
+
+ .div1:hover .editor{
+  visibility: hidden;
+ }
+
+
+ /* RiMiniProgramFill className='text-[3rem] pl-[7px] pt-[-15px] */
+
+ /* w-[60px] h-[60px] p-[20px]  relative right-[490px] top-[120px] */
+
+.div2{
+  width: 60px;
+  height: 60px;
+  right: 470px;
+  top: 140px;
+  font-size: 3rem;
+}
+
+
+.d2{
+  visibility: hidden;
+  position: absolute;
+}
+
+.div2:hover .react{
+  visibility: hidden;
+}
+
+
+
+ .div2:hover .d2{
+  visibility: visible;
+
+  top: -80px;
+  left: 70px;
+  transition-duration: 0.2s;
+  transition-delay: 0.4s;
+
+ }
+
+ /* div3 w-[60px] h-[60px]  relative right-[190px] top-[340px] */
+
+ .div3{
+    width: 60px;
+    height: 60px;
+    right: 190px;
+    top: 340px;
+ }
+ .d3{
+  visibility: hidden;
+  position: absolute;
+ }
+
+ .div3:hover .d3 {
+  visibility:visible;
+  top: -280px;
+  left: -260px;
+
+  transition-duration: 0.2s;
+  transition-delay: 0.4s;
+  
+ }
+
+ .div3:hover .work{
+  visibility: hidden;
+ }
+
+ .btn{
+  border-radius: 100px;
+  position: relative;
+ }
+
+ .btn:hover{
+  transform: translateY(-3px);
+ 
+  box-shadow: 0 10px 20px rgba(0, 0,0, 0.2);
+ }
+ .btn:active{
+  transform: translateY(-1px);
+ }
+
+ btn::after{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  background-color:#00203f ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+ }
+
+ .btn:hover::after{
+  transform: scale(2);
+ }
+
+
+ .card{
+  perspective: 150rem;
+  position: relative;
+  height: 32rem;
+ 
+ 
+ }
+  .card-side{
+    /* background-color: maroon; */
+    height: 32rem;
+    /* color: white; */
+    transition: all 5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  }
+
+ .card:hover .card-side{
+   /* transform: rotateY(180deg); */
+ }
+
+ .front{
+  background-color:;
+  height: 32rem;
+  /* position: absolute; */
+ }
+
+
+ .back{
+   transform: rotateY(180deg);
+   height: 32rem;
+   background-color:rgb(159, 150, 96);
+  
+ }
+
+ .card:hover .back{
+  transform: rotateY(0);
+ }
+
+ .card:hover .front{
+  transform: rotateY(-180deg);
+ }
+
+
+ .second{
+ 
+ }
+
+ 
+/* 
+
+ .cont1{
+   position: relative;
+   transition: all 1s linear;
+   transform-style: preserve-3d;
+ }
+
+ .one,.two{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:absolute;
+ }
+
+ .cont2{
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+ }
+
+ .three,.four{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   position:absolute;
+ }
+
+
+
+ .cont3{
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+
+ }
+
+ .five,.six{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   position:absolute;
+ }
+
+ .one,.three,.five{
+  z-index: 2;
+  backface-visibility: hidden;
+ }
+ .two,.four,.six{
+  z-index: 1;
+  transform: rotateY(180deg);
+ }
+
+ .container-1-2:hover .cont1 {
+   transform: rotateY(180deg);
+ }
+
+ .container-3-4:hover .cont2{
+  transform: rotateY(180deg);
+ }
+
+ .container-5-6:hover .cont3{
+  transform: rotateY(180deg);
+ }
+
+ .container-1-2{
+  perspective: 1000px;
+ }
+ .container-3-4{
+  perspective: 1000px;
+ }
+
+ .container-5-6{
+  perspective: 1000px;
+ } */

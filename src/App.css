@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 } */
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  overflow-x: hidden;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.icon i {
+  font-size: 24px;
+  color: #fff;
+}
+.icon:hover {
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  background-color: #666;
+}
+
+.icon:hover p {
+  display: block;
+}
+
+.icon p {
+  display: none;
+}
+
+.image{
+  width: 500px;
+  height: 500px;
+}
+.icon-1{
+  top: -15px; 
+  right: 130px;
+}
+
+.icon-2{
+  top: 95px; 
+  right: 270px;
+}
+
+.icon-3{
+  top: 270px; 
+  right: 120px;
+}
+.icon-4{
+  top: 105px;
+   right: -9px;
+}
+.icon-5{
+  top: 190px;
+  right: 270px;
+}

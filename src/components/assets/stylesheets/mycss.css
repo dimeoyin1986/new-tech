@@ -1,0 +1,10 @@
+.test {
+    content: "SALE";
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 16px;
+    padding: 10px;
+}
